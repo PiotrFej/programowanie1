@@ -63,6 +63,7 @@ public class MyArray {
             newArr[this.size] = toPush;
             this.arr = newArr;
             this.size++;
+            
         }
         else {
 
