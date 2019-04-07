@@ -13,6 +13,9 @@ public class Main {
         MyArray ma2 = new MyArray(testArr);
         ma.printArray();
         ma2.printArray();
-
+        System.out.println(ma.pick(8));
+        ma2.push(17);
+        ma.printArray();
     }
 }
+

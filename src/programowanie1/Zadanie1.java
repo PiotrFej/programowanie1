@@ -6,7 +6,7 @@ public class Zadanie1 {
     public static void main(String[] args)
     {
 
-        int tablica[] = {0,1,2,3,4,5,6,7,8,9,10};
+        int tablica[] = {0,1,2,3,4,5,6,7,8,9,11};
         coDrugi(tablica);
     }
 
