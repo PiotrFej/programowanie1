@@ -8,5 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        int[] testArr = {1,2,3,4};
+        MyArray ma = new MyArray();
+        MyArray ma2 = new MyArray(testArr);
+        ma.printArray();
+        ma2.printArray();
+
     }
 }
